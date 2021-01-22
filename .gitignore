@@ -1,3 +1,4 @@
 tictactoe
 db.sqlite3
 dump.rdb
+.env
