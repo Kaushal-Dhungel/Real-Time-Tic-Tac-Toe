@@ -27,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','dl8019le#!8p7e2m@u)c90k#@f#7_mny1-!et9!6xsmq(8z3rq')
 SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['realtime-tic-tac-toe.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','realtime-tic-tac-toe.herokuapp.com']
 
 
 # Application definition
